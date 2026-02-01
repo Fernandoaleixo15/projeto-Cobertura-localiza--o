@@ -1,0 +1,166 @@
+/* Reset de estilos e estilo global */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: #696868;
+}
+/* Estilo do header */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  background-color: #b8b8c0;
+  margin: 0px 0 144px 0;
+  
+}
+.logotiopo{
+  color: #17233d;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px rgb(228, 107, 8);
+}
+li, .link-header{
+  font-size:14px ;
+  font-weight: 400;
+  line-height: 29px;
+  color: #17233d;
+  text-decoration: none;
+}
+.nav-links{
+  list-style: none;
+}
+.nav-links li{
+  display: inline;
+  padding: 83px;
+  
+}
+.nav-links li a{
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.nav-links li a:hover{
+  color: #ff5733;
+  transition: 0.3s;
+}
+.button-header{
+  width: 124px;
+  padding: 10px 20px;
+  background-color: #4CB538;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 100px;
+  border: none;
+}
+.button-header:hover{
+  background-color: #117e03;
+  transition: 0.3s;
+}
+
+/*Estilo do main */
+.img-logo{
+  width: 600px;
+  height: 500px;
+  margin-left: 100px ;
+  display: inline-block;
+}
+.secao-text{
+  display: inline-block;
+  margin-left: 86px;
+}
+h1{
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 122px;
+  color: #161A49;
+  text-shadow: 2px 2px 4px #a00d0d;
+}
+h2{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 71px;
+  color: #e6e2e2;
+  margin-bottom: 24px;
+}
+p{
+  color: #e7e3e3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  width: 515px;
+  margin: 12px 0 65px 0;
+}
+.button-main{
+  background: #689703;
+  border-radius: 30px;
+  width: 239px;
+  height: 64px;
+  border: none;
+  color: #000000;
+  font-weight:700 ;
+  font-size: 28px;
+  line-height: 34px;
+  cursor: pointer;
+  margin-top: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button-main:hover{
+  background-color: #26ec0c;
+  transition: 0.3s;
+}
+@media screen and (max-width: 330px) {
+.img-logo{
+ width: 100px;
+ height:200px;
+}
+header{
+  width: 100vw;
+  flex-direction: column;
+}
+
+.logotiopo{
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+li, .link-header{
+  font-size: 10px ;
+  margin-left: 5px;
+}
+.button-header{
+ max-width: 90px;
+ margin: 0 auto;
+ margin-top: 1px;
+ flex-direction: column;
+ font-size: 12px;
+}
+h1{
+  font-size:15px;
+}
+h2{
+  font-size: 10px;
+  text-align: column;
+  max-width: 200px;
+  padding: 10px;
+}
+p{
+font-size: 8px;
+max-width: 80px;
+}
+.button-main{
+  max-width: 90px;
+  margin: 0 auto;
+  margin-top: 1px;
+ flex-direction: column;
+ font-size: 12px;
+}
+}
