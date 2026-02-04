@@ -1,4 +1,4 @@
-<h1>Cobertura Analiza </h1>
+<h1>Cobertura Localiza </h1>
 <br>
 <h2>Este projeto foi criado , com o objetivo de testar<br> o conhecimento obtido nas aulas da <a href="https:"//rodolfomori.com.br/devclub">DevClub🥑</a></h2>
 <br>
